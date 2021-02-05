@@ -7,7 +7,7 @@
 
 body {
   /* Default font family and font color */
-  font-family: ;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   columns: #231f20; ;
 }
@@ -23,51 +23,13 @@ h1 {
 }
 /*titre section*/
 h2 {
+  margin-bottom: 64px;
+  margin-top: 64px;
   font-size: 40px;
   text-align: center;
   font-weight: bold;
 }
 
-h3 {
-  /* Default font, size, and margins */
-}
-
-h4 {
-  /* Default font, size, and margins */
-}
-
-h5 {
-  /* Default font, size, and margins */
-}
-
-h6 {
-  /* Default font, size, and margins */
-}
-
-
-a {
-  /* Link color */
-}
-
-a:hover {
-  /* Link color on mouse over */
-}
-
-
-/**
-* ------
-* Layout
-* ------
-*/
-
-
-
-
-/**
-* ----------
-* Components
-* ----------
-*/
 
 .header-title{
   padding: 15px;
@@ -108,3 +70,101 @@ a:hover {
   height: 8px;
   background-color: #6236ff;
 }
+
+.section-title{
+  height: 56px;
+  margin: 64px 216px 64px 229px;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;  
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.bloc{
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  text-align: justify;
+  
+  }
+
+.colonne1{
+
+flex-basis: 0px;
+flex-grow: 1;
+
+}
+
+.colonnetexte{
+
+  padding-left: 48px;
+  padding-right: 32px;
+}
+
+.colonneimage{
+
+  padding-left: 32px;
+  padding-right: 0px;
+}
+
+.titre1{
+ margin-top: 0px;
+ margin-bottom: 34px;
+ font-size: 24px;
+ text-align: center;
+
+}
+
+.text1{
+font-size: 16px;
+
+}
+
+.bouton{
+  display: block;
+  width: 185px;
+  height: 48px;
+  margin: 30px 31px 22px 455px;
+  padding: 10px 36px;
+  border-radius: 15px;
+  border: solid 4px;
+  color: #ff6b00bd;
+  font-size: 20px;
+}
+
+.ordinateur-1{
+max-width:487px;
+object-fit: contain;
+display: block;
+margin-left: auto;
+mix-blend-mode: darken;
+}
+
+.background-1{
+
+background-image: url(../img/bg-yellow.png);
+text-align: right;
+
+}
+.ordinateur-2{
+max-width:487px;
+height: 471px;
+object-fit: contain;
+display: block;
+margin-left: auto;
+mix-blend-mode: darken;
+}
+
+.background-2{
+background-image: url(../img/bg-orange.png);
+text-align: left;
+margin: 0px, 33px, 0px,0px;
+
+}
+
+
+
