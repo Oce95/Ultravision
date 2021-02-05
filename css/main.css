@@ -7,20 +7,25 @@
 
 body {
   /* Default font family and font color */
+  font-family: ;
+  font-size: 16px;
+  columns: #231f20; ;
 }
 
 p, li, textarea, label, input, select {
   /* Default font size and line height */
 }
 
-
-
+/*titre d'entête*/
 h1 {
-   /* Default font, size, and margins */
-}
+   font-size: 88px;
 
+}
+/*titre section*/
 h2 {
-  /* Default font, size, and margins */
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
 }
 
 h3 {
@@ -63,3 +68,43 @@ a:hover {
 * Components
 * ----------
 */
+
+.header-title{
+  padding: 15px;
+  background-color:#fcce00bd;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 900;
+  line-height: 1;
+
+}
+
+.header-stripe{
+  margin: 8px 0;
+}
+
+.header-subtitle{
+  padding: 15px;
+  font-size: 38px;
+  background-color: #ff6b00bd;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.header-stripe--red{
+  height: 32px;
+  background-color: #e02020;
+
+}
+
+.header-stripe--purple{
+  height: 16px;
+  background-color: #b620e0;
+}
+
+.header-stripe--blue{
+  height: 8px;
+  background-color: #6236ff;
+}
