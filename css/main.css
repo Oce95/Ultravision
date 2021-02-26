@@ -1,20 +1,9 @@
 
-/**
-* -------------
-* Global Styles
-* -------------
-*/
-
 body {
-  /* Default font family and font color */
-  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   columns: #231f20; ;
 }
 
-p, li, textarea, label, input, select {
-  /* Default font size and line height */
-}
 
 /*titre d'entête*/
 h1 {
@@ -73,37 +62,49 @@ h2 {
 
 .section-title{
   height: 56px;
-  margin: 64px 216px 64px 229px;
+  /*margin: 64px 216px 64px 229px;*/
   font-family: Poppins;
   font-size: 40px;
   font-weight: 900;
-  font-stretch: normal;
-  font-style: normal;  
-  line-height: normal;
-  letter-spacing: normal;
   text-align: center;
 }
 
 .bloc{
   display: flex;
   justify-content: space-around;
-  align-items: stretch;
+  align-items: flex-start;
   text-align: justify;
   
   }
 
+.bloc2{
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
+text-align: justify;
+
+}
+
 .colonne1{
 
-flex-basis: 0px;
+flex-basis: 320px;
 flex-grow: 1;
 
 }
 
 .colonnetexte{
 
-  padding-left: 48px;
-  padding-right: 32px;
+  padding-left: 32px;
+  padding-right: 47px;
 }
+
+.colonnetexte-2{
+
+  padding-left: 33px;
+  padding-right: 47px;
+}
+
+
 
 .colonneimage{
 
@@ -112,6 +113,8 @@ flex-grow: 1;
 }
 
 .titre1{
+ font-family: Poppins;
+ font-weight: bold;
  margin-top: 0px;
  margin-bottom: 34px;
  font-size: 24px;
@@ -122,23 +125,40 @@ flex-grow: 1;
 .text1{
 font-size: 16px;
 
+font-family: Poppins;
+font-weight: normal;
+
+
 }
 
 .bouton{
   display: block;
   width: 185px;
-  height: 48px;
-  margin: 30px 31px 22px 455px;
-  padding: 10px 36px;
+  margin: 30px 31px 22px auto;
+  padding: 10px 36px 10px 36px;
   border-radius: 15px;
   border: solid 4px;
   color: #ff6b00bd;
   font-size: 20px;
+  text-decoration: none;
 }
 
+.learn-more{
+
+  width: 113px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  
+
+
+}
 .ordinateur-1{
-max-width:487px;
-object-fit: contain;
 display: block;
 margin-left: auto;
 mix-blend-mode: darken;
@@ -147,13 +167,11 @@ mix-blend-mode: darken;
 .background-1{
 
 background-image: url(../img/bg-yellow.png);
-text-align: right;
+margin: 0 0 0 32px;
+padding: 40px 10px 1px 223px;
 
 }
 .ordinateur-2{
-max-width:487px;
-height: 471px;
-object-fit: contain;
 display: block;
 margin-left: auto;
 mix-blend-mode: darken;
@@ -167,4 +185,17 @@ margin: 0px, 33px, 0px,0px;
 }
 
 
+.background-3{
 
+  background-image: url(../img/bg-red.png);
+
+  margin: 0 0 1px;
+
+}
+
+.titre-2{
+  margin: 0 0 32px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 900;
+}
